@@ -18,11 +18,18 @@ export default function NavLog() {
         tabIndex="0"
       >
         <span className={`one ${fadeAnimated ? "span-animated" : null}`} />
+        <span className={`two ${fadeAnimated ? "span-animated-two" : null}`} />
       </div>
       <div
         className={`big_circle ${fadeAnimated ? "big-circle-animated" : null}`}
       >
-        <p>coucou</p>
+        <button type="button" className="button-one">
+          1
+        </button>
+        <button type="button" className="button-two">
+          2
+        </button>
+        <button type="button"> 3 </button>
       </div>
     </SNavLog>
   );
