@@ -24,12 +24,14 @@ export default function NavLog() {
         className={`big_circle ${fadeAnimated ? "big-circle-animated" : null}`}
       >
         <button type="button" className="button-one">
-          1
+          .
         </button>
         <button type="button" className="button-two">
-          2
+          .
         </button>
-        <button type="button"> 3 </button>
+        <button type="button" className="button-tre">
+          .
+        </button>
       </div>
     </SNavLog>
   );

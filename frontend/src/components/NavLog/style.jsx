@@ -10,7 +10,8 @@ export default styled.div`
   .circle {
     width: 9em;
     height: 9em;
-    background-color: red;
+    background-color: #d7e7e5;
+    box-shadow: inset #315f58 0px 19px 38px, #315f58 20px 15px 62px;
     border-radius: 50%;
     position: absolute;
     top: -4em;
@@ -30,7 +31,7 @@ export default styled.div`
       margin-top: 6em;
       margin-left: 5em;
     }
-    .tree {
+    .tre {
       margin-top: 6.5em;
       margin-left: 5em;
     }
@@ -46,21 +47,34 @@ export default styled.div`
     button {
       position: relative;
       cursor: pointer;
+      border: none;
+      background-color: #d7e7e5;
+      box-shadow: inset #315f58 0px 19px 38px, #315f58 20px 15px 62px;
+      color: #d7e7e5;
     }
     .button-one {
-      background-color: #743a3a;
-      margin-top: 14em;
-      margin-left: 8em;
-      width: 6.3em;
-      height: 5.3em;
-      clip-path: polygon(0 0, 41% 0, 100% 100%, 0% 100%);
+      margin-top: 6em;
+      margin-left: 14em;
+      width: 7em;
+      height: 7em;
+      clip-path: polygon(0 0, 60% 0, 100% 70%, 0% 100%);
+      transform: rotate(290deg);
     }
     .button-two {
-      background-color: #3a7458;
-      margin-top: -9em;
-      margin-left: 15em;
-      width: 6.3em;
-      height: 5.3em;
+      transform: rotate(-36deg);
+      margin-top: -3.5em;
+      margin-left: 11.3em;
+      width: 7.3em;
+      height: 8em;
+      clip-path: polygon(0 0, 41% 0, 100% 100%, 0% 100%);
+    }
+    .button-tre {
+      transform: rotate(-4.2deg);
+      margin-top: -10em;
+      position: static;
+      margin-left: 7.9em;
+      width: 8em;
+      height: 8em;
       clip-path: polygon(0 0, 41% 0, 100% 100%, 0% 100%);
     }
   }
@@ -82,7 +96,7 @@ export default styled.div`
       //transform: translate(3em);
     }
     to {
-      transform: translate(4.2em, 1.9em) rotate(20deg) scale3d(1.9, 1, 0.1);
+      transform: translate(4.2em, 1.9em) rotate(25deg) scale3d(1.9, 1, 0.1);
       border-top-left-radius: 2px;
     }
   }
@@ -97,7 +111,8 @@ export default styled.div`
       //transform: translate(3em, 3em);
     }
     to {
-      transform: translate(1.1em, 4.4em) rotate(55deg) scale3d(1.9, 1, 0.1);
+      transform: translate(1.22em, 4.3em) rotate(55deg) scale3d(1.95, 1, 0.1);
+      border-top-left-radius: 2px;
     }
   }
 
