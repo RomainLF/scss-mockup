@@ -7,6 +7,7 @@ export default styled.div`
   height: 100vw;
   width: 9em;
   left: 0;
+  z-index: 999;
   .circle {
     width: 9em;
     height: 9em;
